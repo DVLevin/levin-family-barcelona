@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Levin Family | Sarria, Les Corts, Barcelona</title>
-    <meta name="description" content="Meet the Levin family — an international family putting down roots in Sarria, Les Corts, Barcelona.">
+    <title>The Levin Family | Sant Cugat, Barcelona</title>
+    <meta name="description" content="Meet the Levin family — an international family putting down roots in Sant Cugat, Barcelona.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -196,28 +196,28 @@
             box-shadow: 0 12px 40px rgba(27,35,50,0.15);
         }
 
-        /* ===== WHY SARRIA CARDS ===== */
-        .sarria-grid {
+        /* ===== WHY SANT CUGAT CARDS ===== */
+        .santcugat-grid {
             display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
         }
-        .sarria-card {
+        .santcugat-card {
             background: var(--white); padding: 36px 28px; border-radius: 20px;
             border: 1px solid var(--border); transition: all 0.4s cubic-bezier(0.16,1,0.3,1);
             position: relative; overflow: hidden;
         }
-        .sarria-card::before {
+        .santcugat-card::before {
             content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
             background: linear-gradient(90deg, var(--warm), var(--gold));
             transform: scaleX(0); transition: transform 0.4s ease; transform-origin: left;
         }
-        .sarria-card:hover::before { transform: scaleX(1); }
-        .sarria-card:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(27,35,50,0.08); }
-        .sarria-icon { font-size: 2.2rem; margin-bottom: 18px; }
-        .sarria-card h3 {
+        .santcugat-card:hover::before { transform: scaleX(1); }
+        .santcugat-card:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(27,35,50,0.08); }
+        .santcugat-icon { font-size: 2.2rem; margin-bottom: 18px; }
+        .santcugat-card h3 {
             font-family: 'DM Serif Display', serif; font-size: 1.15rem;
             color: var(--ink); margin-bottom: 10px;
         }
-        .sarria-card p { font-size: 0.9rem; color: var(--text-light); line-height: 1.7; }
+        .santcugat-card p { font-size: 0.9rem; color: var(--text-light); line-height: 1.7; }
 
         /* ===== FAMILY ===== */
         .family-row {
@@ -412,7 +412,7 @@
             .hero h1 { font-size: 2.2rem; }
             .story-grid { grid-template-columns: 1fr; gap: 32px; }
             .story-img-accent { display: none; }
-            .sarria-grid { grid-template-columns: 1fr; }
+            .santcugat-grid { grid-template-columns: 1fr; }
             .family-row { grid-template-columns: 1fr; }
             .kids-banner { grid-template-columns: 1fr; padding: 32px; }
             .pro-hero { grid-template-columns: 1fr 1fr; }
@@ -446,7 +446,7 @@
         <a href="#" class="nav-brand">Levin Family</a>
         <ul class="nav-links">
             <li><a href="#story" data-lang="en">Our Story</a><a href="#story" data-lang="es">Nuestra Historia</a><a href="#story" data-lang="ca">La Nostra Historia</a></li>
-            <li><a href="#sarria" data-lang="en">Why Sarria &amp; Les Corts</a><a href="#sarria" data-lang="es">Por que Sarria y Les Corts</a><a href="#sarria" data-lang="ca">Per que Sarria i Les Corts</a></li>
+            <li><a href="#santcugat" data-lang="en">Why Sant Cugat</a><a href="#santcugat" data-lang="es">Por que Sant Cugat</a><a href="#santcugat" data-lang="ca">Per que Sant Cugat</a></li>
             <li><a href="#family" data-lang="en">The Family</a><a href="#family" data-lang="es">La Familia</a><a href="#family" data-lang="ca">La Familia</a></li>
             <li><a href="#professional" data-lang="en">Professional</a><a href="#professional" data-lang="es">Profesional</a><a href="#professional" data-lang="ca">Professional</a></li>
             <li><a href="#contact" data-lang="en">Contact</a><a href="#contact" data-lang="es">Contacto</a><a href="#contact" data-lang="ca">Contacte</a></li>
@@ -464,7 +464,7 @@
 
 <div class="mobile-menu" id="mobileMenu">
     <a href="#story" data-lang="en">Our Story</a><a href="#story" data-lang="es">Nuestra Historia</a><a href="#story" data-lang="ca">La Nostra Historia</a>
-    <a href="#sarria" data-lang="en">Why Sarria &amp; Les Corts</a><a href="#sarria" data-lang="es">Por que Sarria y Les Corts</a><a href="#sarria" data-lang="ca">Per que Sarria i Les Corts</a>
+    <a href="#santcugat" data-lang="en">Why Sant Cugat</a><a href="#santcugat" data-lang="es">Por que Sant Cugat</a><a href="#santcugat" data-lang="ca">Per que Sant Cugat</a>
     <a href="#family" data-lang="en">The Family</a><a href="#family" data-lang="es">La Familia</a><a href="#family" data-lang="ca">La Familia</a>
     <a href="#professional" data-lang="en">Professional</a><a href="#professional" data-lang="es">Profesional</a><a href="#professional" data-lang="ca">Professional</a>
     <a href="#contact" data-lang="en">Contact</a><a href="#contact" data-lang="es">Contacto</a><a href="#contact" data-lang="ca">Contacte</a>
@@ -479,17 +479,17 @@
 <header class="hero">
     <div class="hero-bg"></div>
     <div class="hero-content">
-        <div class="hero-label" data-lang="en">Tenant Presentation &middot; Sarria, Les Corts, Barcelona</div>
-        <div class="hero-label" data-lang="es">Presentacion de Inquilinos &middot; Sarria, Les Corts, Barcelona</div>
-        <div class="hero-label" data-lang="ca">Presentacio d'Inquilins &middot; Sarria, Les Corts, Barcelona</div>
+        <div class="hero-label" data-lang="en">Tenant Presentation &middot; Sant Cugat, Barcelona</div>
+        <div class="hero-label" data-lang="es">Presentacion de Inquilinos &middot; Sant Cugat, Barcelona</div>
+        <div class="hero-label" data-lang="ca">Presentacio d'Inquilins &middot; Sant Cugat, Barcelona</div>
 
         <h1 data-lang="en">The Levin Family.<br><em>Putting down roots.</em></h1>
         <h1 data-lang="es">La Familia Levin.<br><em>Echando raices.</em></h1>
         <h1 data-lang="ca">La Familia Levin.<br><em>Posant arrels.</em></h1>
 
-        <p class="hero-sub" data-lang="en">Dima, Ksenia, Mark &amp; Adam — an international family who chose Barcelona four years ago and never looked back. Now we're looking for a home in Sarria or Les Corts to match our long-term commitment to this city.</p>
-        <p class="hero-sub" data-lang="es">Dima, Ksenia, Mark y Adam — una familia internacional que eligio Barcelona hace cuatro anos y nunca miro atras. Ahora buscamos un hogar en Sarria o Les Corts que refleje nuestro compromiso a largo plazo con esta ciudad.</p>
-        <p class="hero-sub" data-lang="ca">Dima, Ksenia, Mark i Adam — una familia internacional que va triar Barcelona fa quatre anys i mai va mirar enrere. Ara busquem una llar a Sarria o Les Corts que reflecteixi el nostre compromis a llarg termini amb aquesta ciutat.</p>
+        <p class="hero-sub" data-lang="en">Dima, Ksenia, Mark &amp; Adam — an international family who chose Barcelona four years ago and never looked back. Now we're looking for a home in Sant Cugat to match our long-term commitment to this community.</p>
+        <p class="hero-sub" data-lang="es">Dima, Ksenia, Mark y Adam — una familia internacional que eligio Barcelona hace cuatro anos y nunca miro atras. Ahora buscamos un hogar en Sant Cugat que refleje nuestro compromiso a largo plazo con esta comunidad.</p>
+        <p class="hero-sub" data-lang="ca">Dima, Ksenia, Mark i Adam — una familia internacional que va triar Barcelona fa quatre anys i mai va mirar enrere. Ara busquem una llar a Sant Cugat que reflecteixi el nostre compromis a llarg termini amb aquesta comunitat.</p>
 
         <div class="hero-pills">
             <span class="hero-pill" data-lang="en">4 years in Barcelona</span>
@@ -558,63 +558,63 @@
     </div>
 </section>
 
-<!-- =============== WHY SARRIA =============== -->
-<section id="sarria" class="section-alt">
+<!-- =============== WHY SANT CUGAT =============== -->
+<section id="santcugat" class="section-alt">
     <div class="container">
         <div class="reveal">
-            <div data-lang="en"><div class="section-label">Our Neighborhood</div><h2 class="section-title">Why Sarria &amp; Les Corts</h2><p class="section-subtitle">More than a neighborhood — the community where we want to raise our children.</p></div>
-            <div data-lang="es"><div class="section-label">Nuestro Barrio</div><h2 class="section-title">Por que Sarria y Les Corts</h2><p class="section-subtitle">Mas que un barrio — la comunidad donde queremos criar a nuestros hijos.</p></div>
-            <div data-lang="ca"><div class="section-label">El Nostre Barri</div><h2 class="section-title">Per que Sarria i Les Corts</h2><p class="section-subtitle">Mes que un barri — la comunitat on volem criar els nostres fills.</p></div>
+            <div data-lang="en"><div class="section-label">Our Community</div><h2 class="section-title">Why Sant Cugat</h2><p class="section-subtitle">More than a town — the community where we want to raise our children.</p></div>
+            <div data-lang="es"><div class="section-label">Nuestra Comunidad</div><h2 class="section-title">Por que Sant Cugat</h2><p class="section-subtitle">Mas que una ciudad — la comunidad donde queremos criar a nuestros hijos.</p></div>
+            <div data-lang="ca"><div class="section-label">La Nostra Comunitat</div><h2 class="section-title">Per que Sant Cugat</h2><p class="section-subtitle">Mes que una ciutat — la comunitat on volem criar els nostres fills.</p></div>
         </div>
 
-        <div class="sarria-grid reveal">
+        <div class="santcugat-grid reveal">
             <!-- EN -->
-            <div class="sarria-card" data-lang="en">
-                <div class="sarria-icon">&#127979;</div>
-                <h3>Santa Dorothea School</h3>
-                <p>Our anchor in Sarria. We chose this school for its exceptional teachers, strong ethics, and their focus on robotics and programming — a perfect match for our curious, science-loving Mark.</p>
+            <div class="santcugat-card" data-lang="en">
+                <div class="santcugat-icon">&#127979;</div>
+                <h3>Pureza de Maria School</h3>
+                <p>Our anchor in Sant Cugat. We chose this school for its exceptional teachers, strong values, and their focus on robotics and programming — a perfect match for our curious, science-loving Mark.</p>
             </div>
-            <div class="sarria-card" data-lang="en">
-                <div class="sarria-icon">&#127795;</div>
+            <div class="santcugat-card" data-lang="en">
+                <div class="santcugat-icon">&#127795;</div>
                 <h3>Quality of Life</h3>
-                <p>The green spaces, the clean air, the peaceful streets. Sarria offers the tranquility our family needs while staying connected to the vibrant city. It truly feels like a village within Barcelona.</p>
+                <p>The green spaces, the clean air, the peaceful streets. Sant Cugat offers the tranquility our family needs while staying connected to Barcelona. A family-friendly town with an exceptional quality of life.</p>
             </div>
-            <div class="sarria-card" data-lang="en">
-                <div class="sarria-icon">&#129309;</div>
+            <div class="santcugat-card" data-lang="en">
+                <div class="santcugat-icon">&#129309;</div>
                 <h3>Community & Friends</h3>
-                <p>We already have many friends and connections in Sarria. From school parents to Dima's professional network in Catalonia, we are part of the community and ready to deepen those roots.</p>
+                <p>We already have many friends and connections in Sant Cugat. From school parents to Dima's professional network in Catalonia, we are part of the community and ready to deepen those roots.</p>
             </div>
             <!-- ES -->
-            <div class="sarria-card" data-lang="es">
-                <div class="sarria-icon">&#127979;</div>
-                <h3>Escuela Santa Dorothea</h3>
-                <p>Nuestra ancla en Sarria. Elegimos esta escuela por sus excepcionales profesores, solida etica y su enfoque en robotica y programacion — una combinacion perfecta para nuestro curioso Mark.</p>
+            <div class="santcugat-card" data-lang="es">
+                <div class="santcugat-icon">&#127979;</div>
+                <h3>Escuela Pureza de Maria</h3>
+                <p>Nuestra ancla en Sant Cugat. Elegimos esta escuela por sus excepcionales profesores, solidos valores y su enfoque en robotica y programacion — una combinacion perfecta para nuestro curioso Mark.</p>
             </div>
-            <div class="sarria-card" data-lang="es">
-                <div class="sarria-icon">&#127795;</div>
+            <div class="santcugat-card" data-lang="es">
+                <div class="santcugat-icon">&#127795;</div>
                 <h3>Calidad de Vida</h3>
-                <p>Los espacios verdes, el aire limpio, las calles tranquilas. Sarria ofrece la tranquilidad que nuestra familia necesita mientras permanece conectada a la vibrante ciudad.</p>
+                <p>Los espacios verdes, el aire limpio, las calles tranquilas. Sant Cugat ofrece la tranquilidad que nuestra familia necesita mientras permanece conectada a Barcelona. Una ciudad familiar con una calidad de vida excepcional.</p>
             </div>
-            <div class="sarria-card" data-lang="es">
-                <div class="sarria-icon">&#129309;</div>
+            <div class="santcugat-card" data-lang="es">
+                <div class="santcugat-icon">&#129309;</div>
                 <h3>Comunidad y Amigos</h3>
-                <p>Ya tenemos muchos amigos y conexiones en Sarria. Desde padres de la escuela hasta la red profesional de Dima en Cataluna, formamos parte de la comunidad.</p>
+                <p>Ya tenemos muchos amigos y conexiones en Sant Cugat. Desde padres de la escuela hasta la red profesional de Dima en Cataluna, formamos parte de la comunidad.</p>
             </div>
             <!-- CA -->
-            <div class="sarria-card" data-lang="ca">
-                <div class="sarria-icon">&#127979;</div>
-                <h3>Escola Santa Dorothea</h3>
-                <p>La nostra ancora a Sarria. Vam triar aquesta escola pels seus excepcionals mestres, solida etica i el seu enfocament en robotica i programacio — perfecte per al nostre curios Mark.</p>
+            <div class="santcugat-card" data-lang="ca">
+                <div class="santcugat-icon">&#127979;</div>
+                <h3>Escola Pureza de Maria</h3>
+                <p>La nostra ancora a Sant Cugat. Vam triar aquesta escola pels seus excepcionals mestres, solids valors i el seu enfocament en robotica i programacio — perfecte per al nostre curios Mark.</p>
             </div>
-            <div class="sarria-card" data-lang="ca">
-                <div class="sarria-icon">&#127795;</div>
+            <div class="santcugat-card" data-lang="ca">
+                <div class="santcugat-icon">&#127795;</div>
                 <h3>Qualitat de Vida</h3>
-                <p>Els espais verds, l'aire net, els carrers tranquils. Sarria ofereix la tranquil-litat que la nostra familia necessita mentre roman connectada a la vibrant ciutat.</p>
+                <p>Els espais verds, l'aire net, els carrers tranquils. Sant Cugat ofereix la tranquil-litat que la nostra familia necessita mentre roman connectada a Barcelona. Una ciutat familiar amb una qualitat de vida excepcional.</p>
             </div>
-            <div class="sarria-card" data-lang="ca">
-                <div class="sarria-icon">&#129309;</div>
+            <div class="santcugat-card" data-lang="ca">
+                <div class="santcugat-icon">&#129309;</div>
                 <h3>Comunitat i Amics</h3>
-                <p>Ja tenim molts amics i connexions a Sarria. Des de pares de l'escola fins a la xarxa professional d'en Dima a Catalunya, formem part de la comunitat.</p>
+                <p>Ja tenim molts amics i connexions a Sant Cugat. Des de pares de l'escola fins a la xarxa professional d'en Dima a Catalunya, formem part de la comunitat.</p>
             </div>
         </div>
     </div>
@@ -624,9 +624,9 @@
 <section id="family">
     <div class="container">
         <div class="reveal">
-            <div data-lang="en"><div class="section-label">Meet Us</div><h2 class="section-title">The Family</h2><p class="section-subtitle">Four people, one dream: making Sarria &amp; Les Corts our home.</p></div>
-            <div data-lang="es"><div class="section-label">Conocenos</div><h2 class="section-title">La Familia</h2><p class="section-subtitle">Cuatro personas, un sueno: hacer de Sarria y Les Corts nuestro hogar.</p></div>
-            <div data-lang="ca"><div class="section-label">Coneix-nos</div><h2 class="section-title">La Familia</h2><p class="section-subtitle">Quatre persones, un somni: fer de Sarria i Les Corts la nostra llar.</p></div>
+            <div data-lang="en"><div class="section-label">Meet Us</div><h2 class="section-title">The Family</h2><p class="section-subtitle">Four people, one dream: making Sant Cugat our home.</p></div>
+            <div data-lang="es"><div class="section-label">Conocenos</div><h2 class="section-title">La Familia</h2><p class="section-subtitle">Cuatro personas, un sueno: hacer de Sant Cugat nuestro hogar.</p></div>
+            <div data-lang="ca"><div class="section-label">Coneix-nos</div><h2 class="section-title">La Familia</h2><p class="section-subtitle">Quatre persones, un somni: fer de Sant Cugat la nostra llar.</p></div>
         </div>
 
         <!-- PARENTS -->
@@ -814,15 +814,15 @@
         </div>
         <div class="timeline reveal">
             <div class="timeline-item" data-lang="en"><h3>Permanent Residence</h3><p>We hold Spanish residence permits. Adam was born in Barcelona. We expect Spanish passports within two years.</p></div>
-            <div class="timeline-item" data-lang="en"><h3>Education Commitment</h3><p>Mark attends a Catalan school and we are applying to Santa Dorothea — a multi-year educational commitment rooted in Sarria.</p></div>
+            <div class="timeline-item" data-lang="en"><h3>Education Commitment</h3><p>Mark attends a Catalan school and we are applying to Pureza de Maria — a multi-year educational commitment rooted in Sant Cugat.</p></div>
             <div class="timeline-item" data-lang="en"><h3>Community Roots</h3><p>Weekly CosmoCaixa visits, celebrating Castanyera, reading Patufet. A Catalan professor friend at UAB. We don't just live here — we belong.</p></div>
             <div class="timeline-item" data-lang="en"><h3>Long-term Vision</h3><p>We plan to stay in Barcelona for life. This is where we build our careers, raise our children, and put down permanent roots. We are committed to a stable, long-term lease.</p></div>
             <div class="timeline-item" data-lang="es"><h3>Residencia Permanente</h3><p>Tenemos permisos de residencia espanoles. Adam nacio en Barcelona. Esperamos pasaportes espanoles en dos anos.</p></div>
-            <div class="timeline-item" data-lang="es"><h3>Compromiso Educativo</h3><p>Mark esta en una escuela catalana y solicitamos plaza en Santa Dorothea — un compromiso educativo de varios anos en Sarria.</p></div>
+            <div class="timeline-item" data-lang="es"><h3>Compromiso Educativo</h3><p>Mark esta en una escuela catalana y solicitamos plaza en Pureza de Maria — un compromiso educativo de varios anos en Sant Cugat.</p></div>
             <div class="timeline-item" data-lang="es"><h3>Raices Comunitarias</h3><p>Visitas semanales al CosmoCaixa, celebramos la Castanyera, leemos Patufet. Un amigo profesor catalan en la UAB. No solo vivimos aqui — pertenecemos.</p></div>
             <div class="timeline-item" data-lang="es"><h3>Vision a Largo Plazo</h3><p>Planeamos quedarnos en Barcelona para toda la vida. Nos comprometemos a un alquiler estable y a largo plazo.</p></div>
             <div class="timeline-item" data-lang="ca"><h3>Residencia Permanent</h3><p>Tenim permisos de residencia. L'Adam va neixer a Barcelona. Esperem passaports espanyols en dos anys.</p></div>
-            <div class="timeline-item" data-lang="ca"><h3>Compromis Educatiu</h3><p>En Mark va a una escola catalana i sol-licitem placa a Santa Dorothea — un compromis educatiu de diversos anys a Sarria.</p></div>
+            <div class="timeline-item" data-lang="ca"><h3>Compromis Educatiu</h3><p>En Mark va a una escola catalana i sol-licitem placa a Pureza de Maria — un compromis educatiu de diversos anys a Sant Cugat.</p></div>
             <div class="timeline-item" data-lang="ca"><h3>Arrels Comunitaries</h3><p>Visites setmanals al CosmoCaixa, celebrem la Castanyera, llegim Patufet. Un amic professor catala a la UAB. No nomes vivim aqui — hi pertanyem.</p></div>
             <div class="timeline-item" data-lang="ca"><h3>Visio a Llarg Termini</h3><p>Tenim previst quedar-nos a Barcelona per a tota la vida. Ens comprometem a un lloguer estable i a llarg termini.</p></div>
         </div>
