@@ -1,0 +1,14 @@
+# This repo is PUBLIC and serves GitHub Pages. Site files ONLY.
+# Never add documents, financial records, or identity papers here.
+docs/
+archive/
+drafts/
+research/
+AGENT/
+*.pdf
+*.PDF
+family_info/*.md
+family_info/*.html
+CLAUDE.md
+STATE.md
+.DS_Store
